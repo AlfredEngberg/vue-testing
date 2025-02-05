@@ -1,5 +1,9 @@
 <script setup></script>
 
 <template>
-
+    <a href="/">Home</a> |
+    <a href="/about">About</a> |
+    <a href="/contact">Contact</a>|
+    <a href="/products">Products</a>
+    <component :is="currentView" />
 </template>

@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import navbar from './components/navbar.vue'
+import footer from './components/footer.vue'
 
 const routes = {
   '/': Home,
@@ -23,4 +24,5 @@ const currentView = computed(() => {
 <template>
   <navbar />
   <component :is="currentView" />
+  <footer />
 </template>
