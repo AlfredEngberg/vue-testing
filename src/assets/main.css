@@ -1,1 +1,43 @@
 @import './base.css';
+
+::root {
+  --color-background: #d68924;
+  --color-background-soft: #e69e42;
+  --color-background-mute: #f2f2f2;
+  --color-button-color: #9b0505;
+  --color-border: rgba(60, 60, 60, 0.12);
+  --color-border-hover: rgba(60, 60, 60, 0.29);
+  --color-heading: #2c3e50;
+  --color-text: #2c3e50;
+  --section-gap: 160px;
+}
+
+.body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: var(--color-background-soft);
+  width: min(110ch, 100vw - 2rem);
+  margin-inline: auto;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgb(73, 12, 12);
+  color: white;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: var(--color-button-color);
+  border: var(--color-border);
+}
