@@ -3,7 +3,7 @@
         <h1>Hej och välkommen Home.vue</h1>
 
         <p>
-            Detta är about route
+            Detta är home route
         </p>
 
     </div>
