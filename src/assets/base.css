@@ -1,4 +1,12 @@
 /* color palette from <https://github.com/vuejs/theme> */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
 :root {
   --color-background: #d68924;
   --color-background-soft: #e69e42;
@@ -9,6 +17,8 @@
   --color-border-hover: rgba(60, 60, 60, 0.29);
   --color-heading: #2c3e50;
   --color-text: #2c3e50;
+
+  --rounded-corners: 0.5rem;
 
   --step--2: clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem);
   --step--1: clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem);

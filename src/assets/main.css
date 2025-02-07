@@ -35,5 +35,7 @@
   background-color: var(--color-button-color);
   border: var();
   padding: 1rem;
+  margin: var(--step-2);
   color: var(--color-bright-text);
+  border-radius: var(--rounded-corners);
 }
