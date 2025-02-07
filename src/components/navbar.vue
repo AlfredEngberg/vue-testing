@@ -5,9 +5,9 @@ import { RouterLink } from 'vue-router'
 <template>
     <nav class="navbar">
         <RouterLink class="btn" to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-        <RouterLink to="/products">Products</RouterLink>
+        <RouterLink class="btn" to="/about">About</RouterLink>
+        <RouterLink class="btn" to="/contact">Contact</RouterLink>
+        <RouterLink class="btn" to="/products">Products</RouterLink>
         <component :is="currentView" />
     </nav>
 </template>
