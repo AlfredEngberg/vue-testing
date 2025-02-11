@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Hej och välkommen about.vue</h1>
+        <h1>About</h1>
 
         <p>
             Detta är about route

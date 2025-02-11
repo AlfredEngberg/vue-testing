@@ -1,6 +1,15 @@
 @import './base.css';
 
 ::root {
+  --color-background: #d68924;
+  --color-background-soft: #707070;
+  --color-background-mute: #f2f2f2;
+  --color-bright-text: #fff;
+  --color-button-color: #9b0505;
+  --color-border: rgba(60, 60, 60, 0.12);
+  --color-border-hover: rgba(60, 60, 60, 0.29);
+  --color-heading: #2c3e50;
+  --color-text: #2c3e50;
 
   --section-gap: 160px;
 }
@@ -23,19 +32,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid;
 }
 
 .footer {
   background-color: var(--color-button-color);
   color: var(--color-bright-text);
   padding: 1rem;
+  text-align: center;
 }
 
 .btn {
   background-color: var(--color-button-color);
   border: var();
   padding: 1rem;
-  margin: var(--step-2);
+  margin: var(--step-1);
   color: var(--color-bright-text);
+  border-radius: var(--rounded-corners);
+}
+
+.product-flow {
+  color: var(--color-bright-text);
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: var(--step-2);
+}
+
+.product-card {
+  background-color: var(--color-button-color);
+  padding: var(--step-2);
+  margin: var(--step-2);
   border-radius: var(--rounded-corners);
 }
