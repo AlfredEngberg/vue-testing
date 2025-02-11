@@ -51,16 +51,21 @@
   border-radius: var(--rounded-corners);
 }
 
-.product-flow {
+.products-grid {
   color: var(--color-bright-text);
+  justify-content: center;
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  gap: var(--step-2);
+  grid-template-columns: repeat(auto-fit, 300px);
 }
 
 .product-card {
   background-color: var(--color-button-color);
   padding: var(--step-2);
-  margin: var(--step-2);
+  margin: var(--step-0);
+  border-radius: var(--rounded-corners);
+}
+
+.product-card img {
+  width: 100%;
   border-radius: var(--rounded-corners);
 }
