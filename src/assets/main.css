@@ -27,10 +27,20 @@
   margin-bottom: var(--step-5);
 }
 
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  height: 120px;
+  width: auto;
+}
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-bottom: 2px solid;
 }
